@@ -74,11 +74,4 @@ postfix({trig="vec", match_pattern = [[[\\%w%.%_%-%"%']+$]] ,snippetType="autosn
     {l("\\vec{" .. l.POSTFIX_MATCH .. "}")}, 
     {condition = in_mathzone}
     ),
-
-s({trig=";", match_pattern = [[%S]], snippetType="autosnippet", dscr="Underscore", wordTrig=false},
-    {t("_{"), i(1), t("}")},
-    {condition = in_mathzone}
-),
-
-
 }

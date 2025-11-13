@@ -10,7 +10,7 @@ return {
     }
 ),
 
-s({trig="env", snippetType="snippet", dscr="Begin and end an arbitrary environment"},
+s({trig="beg", snippetType="snippet", dscr="Begin and end an arbitrary environment"},
     fmta(
         [[
         \begin{<>}
