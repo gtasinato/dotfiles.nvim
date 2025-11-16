@@ -39,3 +39,6 @@ require("options")
 require("lazy").setup("plugins")
 require("keymaps")
 require("autocmds")
+
+vim.opt.termguicolors = true
+require("bufferline").setup{}

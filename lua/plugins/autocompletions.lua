@@ -34,7 +34,7 @@ return {
             -- see the "default configuration" section below for full documentation on how to define
             -- your own keymap.
 
-            keymap = { preset = 'enter'},
+            keymap = { preset = 'super-tab'},
             cmdline = {
               keymap = {
                 -- recommended, as the default keymap will only show and select the next item
