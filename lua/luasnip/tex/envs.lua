@@ -1,5 +1,5 @@
 return {
-	s({trig = "fig", name = "Include image", snippetType = "snippet" },
+	s({trig = "\\fig", name = "Include image", snippetType = "snippet" },
     {
         t("\\begin{figure}[ht]"),
         t({"",""}), t("    \\centering"),
@@ -10,7 +10,7 @@ return {
     }
 ),
 
-s({trig="beg", snippetType="snippet", dscr="Begin and end an arbitrary environment"},
+s({trig="\\beg", snippetType="snippet", dscr="Begin and end an arbitrary environment"},
     fmta(
         [[
         \begin{<>}
