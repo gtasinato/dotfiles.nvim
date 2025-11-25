@@ -42,3 +42,4 @@ require("autocmds")
 
 vim.opt.termguicolors = true
 require("bufferline").setup{}
+require("luasnip.loaders.from_vscode").lazy_load()
